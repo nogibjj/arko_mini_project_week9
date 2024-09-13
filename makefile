@@ -1,27 +1,19 @@
-PYTHON=python
-PIP=pip
-VENV=venv
-SRC=src
-TEST=tests
-FORMAT=black
-LINT=pylint
-
 venv:
-	$(PYTHON) -m venv $(VENV)
+	python -m venv venv
 
 install: venv
-	$(VENV)/bin/$(PIP) install --upgrade $(PIP)
-	$(VENV)/bin/$(PIP) install -r requirements.txt
+	venv/bin/pip install --upgrade pip
+	venv/bin/pip install -r requirements.txt
 
 format:
-	$(VENV)/bin/$(FORMAT) $(SRC)/*.py
+	venv/bin/black scripts/*.py tests/*.py
 
 lint:
-	$(VENV)/bin/$(LINT) $(SRC)/*.py
+	venv/bin/pylint scripts/*.py tests/*.py
 	
 
 test:
-	PYTHONPATH=$(SRC) $(VENV)/bin/$(PYTHON) -m unittest discover -s $(SRC)/$(TEST) -v
+	PYTHONPATH=src venv/bin/python -m unittest discover -s tests -v
 
 run:
-	PYTHONPATH=$(SRC) $(VENV)/bin/$(PYTHON) $(SRC)/main.py
+	PYTHONPATH=src venv/bin/python scripts/VCT21_stats_script.py
