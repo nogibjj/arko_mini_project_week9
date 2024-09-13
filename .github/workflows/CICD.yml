@@ -31,9 +31,9 @@ jobs:
       run: |
         make format lint test
 
-        - name: Run data analysis
-        run: |
-          python scripts/generate_report.py
+    - name: Run data analysis
+      run: |
+        python scripts/generate_report.py
 
     - name: Upload report as artifact
       uses: actions/upload-artifact@v3
