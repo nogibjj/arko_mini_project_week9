@@ -4,3 +4,4 @@ numpy
 black
 pylint
 pytest
+markdownify

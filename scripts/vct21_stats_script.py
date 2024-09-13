@@ -1,15 +1,25 @@
-import pandas as pd
+"""
+This script reads a CSV file containing data on banned maps and generates
+summary statistics and a pie chart showing the ratio of maps banned.
+"""
+
 import os
 from pathlib import Path
+import pandas as pd
 import matplotlib.pyplot as plt
 
-
 def get_summary_stats(df):
+    """
+    Generates summary statistics for the given DataFrame.
 
+    Parameters:
+    - df: pandas DataFrame containing the data
+
+    Returns:
+    - pandas DataFrame with summary statistics
+    """
     summary_stats = df.describe()
-
     return summary_stats
-
 
 def plot_pie_chart(df, label_column, value_column, title="Pie Chart"):
     """
@@ -30,21 +40,21 @@ def plot_pie_chart(df, label_column, value_column, title="Pie Chart"):
 
     return fig, ax
 
-
 if __name__ == "__main__":
-
     current_dir = Path(os.getcwd())
     data_folder = current_dir / "data"
     data_file = data_folder / "banned_maps_stats.csv"
 
-    input_df = pd.read_csv(data_file)
+    # Ensure encoding is specified
+    input_df = pd.read_csv(data_file, encoding='utf-8')
     print(input_df.head(5))
     print(get_summary_stats(input_df))
-    fig, ax = plot_pie_chart(
+
+    # Plotting the pie chart
+    pie_chart_figure, pie_chart_axes = plot_pie_chart(
         input_df, "Map", "Total", title="Ratio of maps banned (Valorant VCT'21)"
     )
-    ax.set_facecolor("lightgrey")
+    pie_chart_axes.set_facecolor("lightgrey")
 
-    fig.savefig("pie_chart.png")
-
+    pie_chart_figure.savefig("pie_chart.png")
     plt.show()

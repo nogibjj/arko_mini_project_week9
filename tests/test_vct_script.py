@@ -1,25 +1,33 @@
+"""
+Unit tests for the vct21_stats_script module.
+This module tests the functionalities of the functions in the vct21_stats_script.
+"""
+
 import unittest
-import pandas as pd
-import matplotlib.pyplot as plt
 from io import StringIO
-from scripts.VCT21_stats_script import (
+
+import pandas as pd
+from scripts.vct21_stats_script import (
     get_summary_stats,
     plot_pie_chart,
-)  
+)
 
 
 class TestVisualizationScript(unittest.TestCase):
+    """
+    Tests for the vct21_stats_script functions.
+    """
 
     def setUp(self):
         """Set up a sample DataFrame for testing."""
         # Sample CSV data as a string
         csv_data = """Map,Total,Wins,Losses
-                    Ascent,5,3,2
-                    Bind,8,5,3
-                    Haven,6,3,3
-                    Icebox,7,4,3
-                    Split,4,2,2
-                    """
+        Ascent,5,3,2
+        Bind,8,5,3
+        Haven,6,3,3
+        Icebox,7,4,3
+        Split,4,2,2
+        """
         self.df = pd.read_csv(StringIO(csv_data))  # Create DataFrame from string
 
     def test_get_summary_stats(self):
