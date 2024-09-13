@@ -1,7 +1,7 @@
-ydata-profiling
-pandas
-numpy
 black
+markdownify
+numpy
+pandas
 pylint
 pytest
-markdownify
+ydata-profiling
