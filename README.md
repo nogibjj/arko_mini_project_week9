@@ -48,7 +48,7 @@ docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 
 
 ## GitHub CI/CD Setup
-- `.github/workflows/`: Contians CI/CD workflows for GitHub, which triggers when pushing code to the GitHub repo.
+- `.github/workflows/`: Contians CI/CD workflows for GitHub, which triggers when pushing code to the GitHub repo. Writes analysis report to `report.md` file.
 
 [![Run Tests](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml)
 
