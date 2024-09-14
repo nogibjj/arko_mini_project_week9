@@ -30,7 +30,8 @@ Clone the repository to your local machine:
 git clone https://github.com/nogibjj/arko_bhattacharya_pandas_descriptives.git
 cd arko_bhattacharya_pandas_descriptives
 ```
-![image](https://github.com/user-attachments/assets/6f4c2022-de01-4bb1-953e-3e5abd962457)
+![image](https://github.com/user-attachments/assets/a66f20ea-69cf-4354-8649-e03e62f4451c)
+
 
 
 ### 2. Dockerize
@@ -41,7 +42,8 @@ Build and Run the Docker image:
 docker build -f .devcontainer/Dockerfile -t <image-name> .
 docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 ```
-![image](https://github.com/user-attachments/assets/c608288f-93a9-413c-89aa-b2541d4e9baf)
+![image](https://github.com/user-attachments/assets/6ebd6d64-d3d0-4968-8ad5-4e0642a7f702)
+
 
 ## GitHub CI/CD Setup
 - `.github/workflows/`: Contians CI/CD workflows for GitHub, which triggers when pushing code to the GitHub repo.
