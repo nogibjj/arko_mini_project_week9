@@ -20,8 +20,8 @@ run:
 
 analyze:
 	
-	python scripts/vct21_stats_script.py
-	python scripts/generate_md.py
+	PYTHONPATH=scripts venv/bin/python scripts/vct21_stats_script.py
+	PYTHONPATH=scripts venv/bin/python scripts/generate_md.py
 
 	@if [ -n "$$(git status --porcelain)" ]; then \
 		git config --local user.email "action@github.com"; \
