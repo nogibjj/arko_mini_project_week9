@@ -50,7 +50,8 @@ docker run -it --rm -v $(pwd):/app <image-name> /bin/sh
 
 [![Run Tests](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml)
 
-![image](https://github.com/user-attachments/assets/bb697bc9-6578-48d6-872c-d2087a443e66)
+![image](https://github.com/user-attachments/assets/a633abe3-da89-44e8-818d-2f6b12b98ac3)
+
   
 
 
