@@ -38,33 +38,33 @@ Variable types
 
 Alerts
 
-| [`Day 7`](#pp_var_-469537531475120693) has constant value "0" | Constant |
-| [`Day 1`](#pp_var_8238631191548770690) is highly overall correlated with `Day 2` and 2 other fields | High correlation |
-| [`Day 2`](#pp_var_-1511136810944032133) is highly overall correlated with `Day 1` and 2 other fields | High correlation |
-| [`Day 3`](#pp_var_4239025481304997780) is highly overall correlated with `Day 1` and 3 other fields | High correlation |
-| [`Day 4`](#pp_var_6001672875606132106) is highly overall correlated with `Day 6` and 1 other fields | High correlation |
-| [`Day 5`](#pp_var_-6288842352691444016) is highly overall correlated with `Day 6` and 1 other fields | High correlation |
-| [`Day 6`](#pp_var_-4759255394640605174) is highly overall correlated with `Day 3` and 3 other fields | High correlation |
-| [`Total`](#pp_var_-4251286488101806234) is highly overall correlated with `Day 1` and 5 other fields | High correlation |
-| [`Total`](#pp_var_-4251286488101806234) is uniformly distributed | Uniform |
-| [`Map`](#pp_var_6677271558468189224) has unique values | Unique |
-| [`Total`](#pp_var_-4251286488101806234) has unique values | Unique |
+| [`Day 7`](#pp_var_4480587306887885730) has constant value "0" | Constant |
+| [`Day 1`](#pp_var_8257629424213132665) is highly overall correlated with `Day 2` and 2 other fields | High correlation |
+| [`Day 2`](#pp_var_2572337255200252387) is highly overall correlated with `Day 1` and 2 other fields | High correlation |
+| [`Day 3`](#pp_var_5089379181801552649) is highly overall correlated with `Day 1` and 3 other fields | High correlation |
+| [`Day 4`](#pp_var_4726885259799621672) is highly overall correlated with `Day 6` and 1 other fields | High correlation |
+| [`Day 5`](#pp_var_-2014309133162283103) is highly overall correlated with `Day 6` and 1 other fields | High correlation |
+| [`Day 6`](#pp_var_7182813280531985395) is highly overall correlated with `Day 3` and 3 other fields | High correlation |
+| [`Total`](#pp_var_-914283589891117323) is highly overall correlated with `Day 1` and 5 other fields | High correlation |
+| [`Total`](#pp_var_-914283589891117323) is uniformly distributed | Uniform |
+| [`Map`](#pp_var_-5559658697090004639) has unique values | Unique |
+| [`Total`](#pp_var_-914283589891117323) has unique values | Unique |
 
 Reproduction
 
 
 
-| Analysis started | 2024\-09\-14 02:43:48\.206247 |
+| Analysis started | 2024\-09\-14 02:54:38\.056523 |
 | --- | --- |
-| Analysis finished | 2024\-09\-14 02:43:48\.912878 |
-| Duration | 0\.71 seconds |
+| Analysis finished | 2024\-09\-14 02:54:38\.755023 |
+| Duration | 0\.7 seconds |
 | Software version | [ydata\-profiling vv4\.10\.0](https://github.com/ydataai/ydata-profiling) |
 | Download configuration | [config.json](data:text/plain;charset=utf-8,%7B%22title%22%3A%20%22Descriptive%20Statistics%20Report%22%2C%20%22dataset%22%3A%20%7B%22description%22%3A%20%22%22%2C%20%22creator%22%3A%20%22%22%2C%20%22author%22%3A%20%22%22%2C%20%22copyright_holder%22%3A%20%22%22%2C%20%22copyright_year%22%3A%20%22%22%2C%20%22url%22%3A%20%22%22%7D%2C%20%22variables%22%3A%20%7B%22descriptions%22%3A%20%7B%7D%7D%2C%20%22infer_dtypes%22%3A%20true%2C%20%22show_variable_description%22%3A%20true%2C%20%22pool_size%22%3A%200%2C%20%22progress_bar%22%3A%20true%2C%20%22vars%22%3A%20%7B%22num%22%3A%20%7B%22quantiles%22%3A%20%5B0.05%2C%200.25%2C%200.5%2C%200.75%2C%200.95%5D%2C%20%22skewness_threshold%22%3A%2020%2C%20%22low_categorical_threshold%22%3A%205%2C%20%22chi_squared_threshold%22%3A%200.999%7D%2C%20%22text%22%3A%20%7B%22length%22%3A%20true%2C%20%22words%22%3A%20true%2C%20%22characters%22%3A%20true%2C%20%22redact%22%3A%20false%7D%2C%20%22cat%22%3A%20%7B%22length%22%3A%20true%2C%20%22characters%22%3A%20true%2C%20%22words%22%3A%20true%2C%20%22cardinality_threshold%22%3A%2050%2C%20%22percentage_cat_threshold%22%3A%200.5%2C%20%22imbalance_threshold%22%3A%200.5%2C%20%22n_obs%22%3A%205%2C%20%22chi_squared_threshold%22%3A%200.999%2C%20%22coerce_str_to_date%22%3A%20false%2C%20%22redact%22%3A%20false%2C%20%22histogram_largest%22%3A%2050%2C%20%22stop_words%22%3A%20%5B%5D%7D%2C%20%22image%22%3A%20%7B%22active%22%3A%20true%2C%20%22exif%22%3A%20true%2C%20%22hash%22%3A%20true%7D%2C%20%22bool%22%3A%20%7B%22n_obs%22%3A%203%2C%20%22imbalance_threshold%22%3A%200.5%2C%20%22mappings%22%3A%20%7B%22t%22%3A%20true%2C%20%22f%22%3A%20false%2C%20%22yes%22%3A%20true%2C%20%22no%22%3A%20false%2C%20%22y%22%3A%20true%2C%20%22n%22%3A%20false%2C%20%22true%22%3A%20true%2C%20%22false%22%3A%20false%7D%7D%2C%20%22path%22%3A%20%7B%22active%22%3A%20true%7D%2C%20%22file%22%3A%20%7B%22active%22%3A%20true%7D%2C%20%22url%22%3A%20%7B%22active%22%3A%20true%7D%2C%20%22timeseries%22%3A%20%7B%22active%22%3A%20false%2C%20%22sortby%22%3A%20null%2C%20%22autocorrelation%22%3A%200.7%2C%20%22lags%22%3A%20%5B1%2C%207%2C%2012%2C%2024%2C%2030%5D%2C%20%22significance%22%3A%200.05%2C%20%22pacf_acf_lag%22%3A%20100%7D%7D%2C%20%22sort%22%3A%20null%2C%20%22missing_diagrams%22%3A%20%7B%22bar%22%3A%20true%2C%20%22matrix%22%3A%20true%2C%20%22heatmap%22%3A%20true%7D%2C%20%22correlation_table%22%3A%20true%2C%20%22correlations%22%3A%20%7B%22auto%22%3A%20%7B%22key%22%3A%20%22auto%22%2C%20%22calculate%22%3A%20true%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22spearman%22%3A%20%7B%22key%22%3A%20%22spearman%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22pearson%22%3A%20%7B%22key%22%3A%20%22pearson%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22phi_k%22%3A%20%7B%22key%22%3A%20%22phi_k%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22cramers%22%3A%20%7B%22key%22%3A%20%22cramers%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%2C%20%22kendall%22%3A%20%7B%22key%22%3A%20%22kendall%22%2C%20%22calculate%22%3A%20false%2C%20%22warn_high_correlations%22%3A%2010%2C%20%22threshold%22%3A%200.5%2C%20%22n_bins%22%3A%2010%7D%7D%2C%20%22interactions%22%3A%20%7B%22continuous%22%3A%20true%2C%20%22targets%22%3A%20%5B%5D%7D%2C%20%22categorical_maximum_correlation_distinct%22%3A%20100%2C%20%22memory_deep%22%3A%20true%2C%20%22plot%22%3A%20%7B%22missing%22%3A%20%7B%22force_labels%22%3A%20true%2C%20%22cmap%22%3A%20%22RdBu%22%7D%2C%20%22image_format%22%3A%20%22svg%22%2C%20%22correlation%22%3A%20%7B%22cmap%22%3A%20%22RdBu%22%2C%20%22bad%22%3A%20%22%23000000%22%7D%2C%20%22dpi%22%3A%20800%2C%20%22histogram%22%3A%20%7B%22bins%22%3A%2050%2C%20%22max_bins%22%3A%20250%2C%20%22x_axis_labels%22%3A%20true%2C%20%22density%22%3A%20false%7D%2C%20%22scatter_threshold%22%3A%201000%2C%20%22cat_freq%22%3A%20%7B%22show%22%3A%20true%2C%20%22type%22%3A%20%22bar%22%2C%20%22max_unique%22%3A%2010%2C%20%22colors%22%3A%20null%7D%2C%20%22font_path%22%3A%20null%7D%2C%20%22duplicates%22%3A%20%7B%22head%22%3A%2010%2C%20%22key%22%3A%20%22%23%20duplicates%22%7D%2C%20%22samples%22%3A%20%7B%22head%22%3A%2010%2C%20%22tail%22%3A%2010%2C%20%22random%22%3A%200%7D%2C%20%22reject_variables%22%3A%20true%2C%20%22n_obs_unique%22%3A%2010%2C%20%22n_freq_table_max%22%3A%2010%2C%20%22n_extreme_obs%22%3A%2010%2C%20%22report%22%3A%20%7B%22precision%22%3A%208%7D%2C%20%22html%22%3A%20%7B%22style%22%3A%20%7B%22primary_colors%22%3A%20%5B%22%23377eb8%22%2C%20%22%23e41a1c%22%2C%20%22%234daf4a%22%5D%2C%20%22logo%22%3A%20%22%22%2C%20%22theme%22%3A%20null%7D%2C%20%22navbar_show%22%3A%20true%2C%20%22minify_html%22%3A%20true%2C%20%22use_local_assets%22%3A%20true%2C%20%22inline%22%3A%20true%2C%20%22assets_prefix%22%3A%20null%2C%20%22assets_path%22%3A%20null%2C%20%22full_width%22%3A%20false%7D%2C%20%22notebook%22%3A%20%7B%22iframe%22%3A%20%7B%22height%22%3A%20%22800px%22%2C%20%22width%22%3A%20%22100%25%22%2C%20%22attribute%22%3A%20%22srcdoc%22%7D%7D%7D) |
 
 Variables
 =========
 
-Select ColumnsMapTotalDay 1Day 2Day 3Day 4Day 5Day 6Day 7[Map](#pp_var_6677271558468189224)  
+Select ColumnsMapTotalDay 1Day 2Day 3Day 4Day 5Day 6Day 7[Map](#pp_var_-5559658697090004639)  
 Text
 
 `UNIQUE`  
@@ -78,9 +78,9 @@ Text
 | Missing (%) | 0\.0% |
 | Memory size | 439\.0 B |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.016768image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#6677271558468189224bottom-6677271558468189224overview)
-* [Words](#6677271558468189224bottom-6677271558468189224word)
-* [Characters](#6677271558468189224bottom-6677271558468189224characters)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:38\.857930image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ More details * [Overview](#-5559658697090004639bottom--5559658697090004639overview)
+* [Words](#-5559658697090004639bottom--5559658697090004639word)
+* [Characters](#-5559658697090004639bottom--5559658697090004639characters)
 
 Length
 
@@ -132,10 +132,10 @@ Sample
 | icebox | 1 | 20\.0% |
 | split | 1 | 20\.0% |
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.445032image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#6677271558468189224unicode-6677271558468189224characters)
-* [Categories](#6677271558468189224unicode-6677271558468189224categories)
-* [Scripts](#6677271558468189224unicode-6677271558468189224scripts)
-* [Blocks](#6677271558468189224unicode-6677271558468189224blocks)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:39\.285772image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/* [Characters](#-5559658697090004639unicode--5559658697090004639characters)
+* [Categories](#-5559658697090004639unicode--5559658697090004639categories)
+* [Scripts](#-5559658697090004639unicode--5559658697090004639scripts)
+* [Blocks](#-5559658697090004639unicode--5559658697090004639blocks)
 
 #### Most occurring characters
 
@@ -239,7 +239,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.4
 | x | 1 | 3\.8% |
 | Other values (9\) | 9 | 34\.6% |
 
-[Total](#pp_var_-4251286488101806234)  
+[Total](#pp_var_-914283589891117323)  
 Categorical
 
 `HIGH CORRELATION`  `UNIFORM`  `UNIQUE`  
@@ -262,10 +262,10 @@ Categorical
 | 8 | 1 |
 | 12 | 1 |
 
- More details * [Overview](#-4251286488101806234bottom--4251286488101806234overview)
-* [Categories](#-4251286488101806234bottom--4251286488101806234string)
-* [Words](#-4251286488101806234bottom--4251286488101806234word)
-* [Characters](#-4251286488101806234bottom--4251286488101806234characters)
+ More details * [Overview](#-914283589891117323bottom--914283589891117323overview)
+* [Categories](#-914283589891117323bottom--914283589891117323string)
+* [Words](#-914283589891117323bottom--914283589891117323word)
+* [Characters](#-914283589891117323bottom--914283589891117323characters)
 
 Length
 
@@ -321,9 +321,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.619371image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:39\.496655image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.750870image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:39\.674924image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -333,10 +333,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.7
 | 8 | 1 | 20\.0% |
 | 12 | 1 | 20\.0% |
 
-* [Characters](#-4251286488101806234unicode--4251286488101806234characters)
-* [Categories](#-4251286488101806234unicode--4251286488101806234categories)
-* [Scripts](#-4251286488101806234unicode--4251286488101806234scripts)
-* [Blocks](#-4251286488101806234unicode--4251286488101806234blocks)
+* [Characters](#-914283589891117323unicode--914283589891117323characters)
+* [Categories](#-914283589891117323unicode--914283589891117323categories)
+* [Scripts](#-914283589891117323unicode--914283589891117323scripts)
+* [Blocks](#-914283589891117323unicode--914283589891117323blocks)
 
 #### Most occurring characters
 
@@ -416,7 +416,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.7
 | 8 | 1 | 16\.7% |
 | 1 | 1 | 16\.7% |
 
-[Day 1](#pp_var_8238631191548770690)  
+[Day 1](#pp_var_8257629424213132665)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -438,10 +438,10 @@ Categorical
 | 1 | 1 |
 | 3 | 1 |
 
- More details * [Overview](#8238631191548770690bottom-8238631191548770690overview)
-* [Categories](#8238631191548770690bottom-8238631191548770690string)
-* [Words](#8238631191548770690bottom-8238631191548770690word)
-* [Characters](#8238631191548770690bottom-8238631191548770690characters)
+ More details * [Overview](#8257629424213132665bottom-8257629424213132665overview)
+* [Categories](#8257629424213132665bottom-8257629424213132665string)
+* [Words](#8257629424213132665bottom-8257629424213132665word)
+* [Characters](#8257629424213132665bottom-8257629424213132665characters)
 
 Length
 
@@ -496,9 +496,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:49\.891663image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:39\.864640image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.018538image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.029104image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -507,10 +507,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.0
 | 1 | 1 | 20\.0% |
 | 3 | 1 | 20\.0% |
 
-* [Characters](#8238631191548770690unicode-8238631191548770690characters)
-* [Categories](#8238631191548770690unicode-8238631191548770690categories)
-* [Scripts](#8238631191548770690unicode-8238631191548770690scripts)
-* [Blocks](#8238631191548770690unicode-8238631191548770690blocks)
+* [Characters](#8257629424213132665unicode-8257629424213132665characters)
+* [Categories](#8257629424213132665unicode-8257629424213132665categories)
+* [Scripts](#8257629424213132665unicode-8257629424213132665scripts)
+* [Blocks](#8257629424213132665unicode-8257629424213132665blocks)
 
 #### Most occurring characters
 
@@ -586,7 +586,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.0
 | 1 | 1 | 20\.0% |
 | 3 | 1 | 20\.0% |
 
-[Day 2](#pp_var_-1511136810944032133)  
+[Day 2](#pp_var_2572337255200252387)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -608,10 +608,10 @@ Categorical
 | 1 | 1 |
 | 2 | 1 |
 
- More details * [Overview](#-1511136810944032133bottom--1511136810944032133overview)
-* [Categories](#-1511136810944032133bottom--1511136810944032133string)
-* [Words](#-1511136810944032133bottom--1511136810944032133word)
-* [Characters](#-1511136810944032133bottom--1511136810944032133characters)
+ More details * [Overview](#2572337255200252387bottom-2572337255200252387overview)
+* [Categories](#2572337255200252387bottom-2572337255200252387string)
+* [Words](#2572337255200252387bottom-2572337255200252387word)
+* [Characters](#2572337255200252387bottom-2572337255200252387characters)
 
 Length
 
@@ -666,9 +666,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.216100image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.212501image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.348868image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.378521image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -677,10 +677,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.3
 | 1 | 1 | 20\.0% |
 | 2 | 1 | 20\.0% |
 
-* [Characters](#-1511136810944032133unicode--1511136810944032133characters)
-* [Categories](#-1511136810944032133unicode--1511136810944032133categories)
-* [Scripts](#-1511136810944032133unicode--1511136810944032133scripts)
-* [Blocks](#-1511136810944032133unicode--1511136810944032133blocks)
+* [Characters](#2572337255200252387unicode-2572337255200252387characters)
+* [Categories](#2572337255200252387unicode-2572337255200252387categories)
+* [Scripts](#2572337255200252387unicode-2572337255200252387scripts)
+* [Blocks](#2572337255200252387unicode-2572337255200252387blocks)
 
 #### Most occurring characters
 
@@ -756,7 +756,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.3
 | 1 | 1 | 20\.0% |
 | 2 | 1 | 20\.0% |
 
-[Day 3](#pp_var_4239025481304997780)  
+[Day 3](#pp_var_5089379181801552649)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -777,10 +777,10 @@ Categorical
 | 0 | 1 |
 | 3 | 1 |
 
- More details * [Overview](#4239025481304997780bottom-4239025481304997780overview)
-* [Categories](#4239025481304997780bottom-4239025481304997780string)
-* [Words](#4239025481304997780bottom-4239025481304997780word)
-* [Characters](#4239025481304997780bottom-4239025481304997780characters)
+ More details * [Overview](#5089379181801552649bottom-5089379181801552649overview)
+* [Categories](#5089379181801552649bottom-5089379181801552649string)
+* [Words](#5089379181801552649bottom-5089379181801552649word)
+* [Characters](#5089379181801552649bottom-5089379181801552649characters)
 
 Length
 
@@ -834,9 +834,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.489591image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.562055image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.610824image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.721329image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -844,10 +844,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.6
 | 0 | 1 | 20\.0% |
 | 3 | 1 | 20\.0% |
 
-* [Characters](#4239025481304997780unicode-4239025481304997780characters)
-* [Categories](#4239025481304997780unicode-4239025481304997780categories)
-* [Scripts](#4239025481304997780unicode-4239025481304997780scripts)
-* [Blocks](#4239025481304997780unicode-4239025481304997780blocks)
+* [Characters](#5089379181801552649unicode-5089379181801552649characters)
+* [Categories](#5089379181801552649unicode-5089379181801552649categories)
+* [Scripts](#5089379181801552649unicode-5089379181801552649scripts)
+* [Blocks](#5089379181801552649unicode-5089379181801552649blocks)
 
 #### Most occurring characters
 
@@ -919,7 +919,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.6
 | 0 | 1 | 20\.0% |
 | 3 | 1 | 20\.0% |
 
-[Day 4](#pp_var_6001672875606132106)  
+[Day 4](#pp_var_4726885259799621672)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -940,10 +940,10 @@ Categorical
 | 1 | 2 |
 | 0 | 1 |
 
- More details * [Overview](#6001672875606132106bottom-6001672875606132106overview)
-* [Categories](#6001672875606132106bottom-6001672875606132106string)
-* [Words](#6001672875606132106bottom-6001672875606132106word)
-* [Characters](#6001672875606132106bottom-6001672875606132106characters)
+ More details * [Overview](#4726885259799621672bottom-4726885259799621672overview)
+* [Categories](#4726885259799621672bottom-4726885259799621672string)
+* [Words](#4726885259799621672bottom-4726885259799621672word)
+* [Characters](#4726885259799621672bottom-4726885259799621672characters)
 
 Length
 
@@ -997,9 +997,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.741957image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:40\.897887image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.859144image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.056813image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -1007,10 +1007,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.8
 | 1 | 2 | 40\.0% |
 | 0 | 1 | 20\.0% |
 
-* [Characters](#6001672875606132106unicode-6001672875606132106characters)
-* [Categories](#6001672875606132106unicode-6001672875606132106categories)
-* [Scripts](#6001672875606132106unicode-6001672875606132106scripts)
-* [Blocks](#6001672875606132106unicode-6001672875606132106blocks)
+* [Characters](#4726885259799621672unicode-4726885259799621672characters)
+* [Categories](#4726885259799621672unicode-4726885259799621672categories)
+* [Scripts](#4726885259799621672unicode-4726885259799621672scripts)
+* [Blocks](#4726885259799621672unicode-4726885259799621672blocks)
 
 #### Most occurring characters
 
@@ -1082,7 +1082,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.8
 | 1 | 2 | 40\.0% |
 | 0 | 1 | 20\.0% |
 
-[Day 5](#pp_var_-6288842352691444016)  
+[Day 5](#pp_var_-2014309133162283103)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -1103,10 +1103,10 @@ Categorical
 | 2 | 2 |
 | 0 | 1 |
 
- More details * [Overview](#-6288842352691444016bottom--6288842352691444016overview)
-* [Categories](#-6288842352691444016bottom--6288842352691444016string)
-* [Words](#-6288842352691444016bottom--6288842352691444016word)
-* [Characters](#-6288842352691444016bottom--6288842352691444016characters)
+ More details * [Overview](#-2014309133162283103bottom--2014309133162283103overview)
+* [Categories](#-2014309133162283103bottom--2014309133162283103string)
+* [Words](#-2014309133162283103bottom--2014309133162283103word)
+* [Characters](#-2014309133162283103bottom--2014309133162283103characters)
 
 Length
 
@@ -1160,9 +1160,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:50\.991119image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.232408image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.108185image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.391859image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -1170,10 +1170,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.1
 | 2 | 2 | 40\.0% |
 | 0 | 1 | 20\.0% |
 
-* [Characters](#-6288842352691444016unicode--6288842352691444016characters)
-* [Categories](#-6288842352691444016unicode--6288842352691444016categories)
-* [Scripts](#-6288842352691444016unicode--6288842352691444016scripts)
-* [Blocks](#-6288842352691444016unicode--6288842352691444016blocks)
+* [Characters](#-2014309133162283103unicode--2014309133162283103characters)
+* [Categories](#-2014309133162283103unicode--2014309133162283103categories)
+* [Scripts](#-2014309133162283103unicode--2014309133162283103scripts)
+* [Blocks](#-2014309133162283103unicode--2014309133162283103blocks)
 
 #### Most occurring characters
 
@@ -1245,7 +1245,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.1
 | 2 | 2 | 40\.0% |
 | 0 | 1 | 20\.0% |
 
-[Day 6](#pp_var_-4759255394640605174)  
+[Day 6](#pp_var_7182813280531985395)  
 Categorical
 
 `HIGH CORRELATION`  
@@ -1266,10 +1266,10 @@ Categorical
 | 1 | 2 |
 | 2 | 1 |
 
- More details * [Overview](#-4759255394640605174bottom--4759255394640605174overview)
-* [Categories](#-4759255394640605174bottom--4759255394640605174string)
-* [Words](#-4759255394640605174bottom--4759255394640605174word)
-* [Characters](#-4759255394640605174bottom--4759255394640605174characters)
+ More details * [Overview](#7182813280531985395bottom-7182813280531985395overview)
+* [Categories](#7182813280531985395bottom-7182813280531985395string)
+* [Words](#7182813280531985395bottom-7182813280531985395word)
+* [Characters](#7182813280531985395bottom-7182813280531985395characters)
 
 Length
 
@@ -1323,9 +1323,9 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.238405image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.567697image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.354943image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.726799image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
@@ -1333,10 +1333,10 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.3
 | 1 | 2 | 40\.0% |
 | 2 | 1 | 20\.0% |
 
-* [Characters](#-4759255394640605174unicode--4759255394640605174characters)
-* [Categories](#-4759255394640605174unicode--4759255394640605174categories)
-* [Scripts](#-4759255394640605174unicode--4759255394640605174scripts)
-* [Blocks](#-4759255394640605174unicode--4759255394640605174blocks)
+* [Characters](#7182813280531985395unicode-7182813280531985395characters)
+* [Categories](#7182813280531985395unicode-7182813280531985395categories)
+* [Scripts](#7182813280531985395unicode-7182813280531985395scripts)
+* [Blocks](#7182813280531985395unicode-7182813280531985395blocks)
 
 #### Most occurring characters
 
@@ -1408,7 +1408,7 @@ xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.3
 | 1 | 2 | 40\.0% |
 | 2 | 1 | 20\.0% |
 
-[Day 7](#pp_var_-469537531475120693)  
+[Day 7](#pp_var_4480587306887885730)  
 Categorical
 
 `CONSTANT`  
@@ -1427,10 +1427,10 @@ Categorical
 | 0 | 5 |
 | --- | --- |
 
- More details * [Overview](#-469537531475120693bottom--469537531475120693overview)
-* [Categories](#-469537531475120693bottom--469537531475120693string)
-* [Words](#-469537531475120693bottom--469537531475120693word)
-* [Characters](#-469537531475120693bottom--469537531475120693characters)
+ More details * [Overview](#4480587306887885730bottom-4480587306887885730overview)
+* [Categories](#4480587306887885730bottom-4480587306887885730string)
+* [Words](#4480587306887885730bottom-4480587306887885730word)
+* [Characters](#4480587306887885730bottom-4480587306887885730characters)
 
 Length
 
@@ -1482,18 +1482,18 @@ Sample
 
 #### Length
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.483181image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:41\.904393image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Histogram of lengths of the category #### Common Values (Plot)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.595679image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:42\.051480image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 | Value | Count | Frequency (%) |
 | --- | --- | --- |
 | 0 | 5 | 100\.0% |
 
-* [Characters](#-469537531475120693unicode--469537531475120693characters)
-* [Categories](#-469537531475120693unicode--469537531475120693categories)
-* [Scripts](#-469537531475120693unicode--469537531475120693scripts)
-* [Blocks](#-469537531475120693unicode--469537531475120693blocks)
+* [Characters](#4480587306887885730unicode-4480587306887885730characters)
+* [Categories](#4480587306887885730unicode-4480587306887885730categories)
+* [Scripts](#4480587306887885730unicode-4480587306887885730scripts)
+* [Blocks](#4480587306887885730unicode-4480587306887885730blocks)
 
 #### Most occurring characters
 
@@ -1565,7 +1565,7 @@ Correlations
 * [Heatmap](#auto_diagram_table-auto_diagram)
 * [Table](#auto_diagram_table-auto_table)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:51\.672524image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:42\.161133image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/
 
 |  | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Total |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1583,7 +1583,7 @@ Missing values
 * [Count](#missing-bar)
 * [Matrix](#missing-matrix)
 
-xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:48\.509490image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ A simple visualization of nullity by column. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:43:48\.822584image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Nullity matrix is a data\-dense display which lets you quickly visually pick out patterns in data completion. Sample
+xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:38\.354284image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ A simple visualization of nullity by column. xml version\="1\.0" encoding\="utf\-8" standalone\="no"?2024\-09\-14T02:54:38\.666711image/svg\+xmlMatplotlib v3\.7\.5, https://matplotlib.org/ Nullity matrix is a data\-dense display which lets you quickly visually pick out patterns in data completion. Sample
 ======
 
 * [First rows](#sample-head)
