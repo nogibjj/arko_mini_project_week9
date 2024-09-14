@@ -13,7 +13,22 @@ lint:
 	
 
 test:
-	PYTHONPATH=src venv/bin/python -m unittest discover -s tests -v
+	PYTHONPATH=scripts venv/bin/python -m unittest discover -s tests -v
 
 run:
-	PYTHONPATH=src venv/bin/python scripts/VCT21_stats_script.py
+	PYTHONPATH=scripts venv/bin/python scripts/vct21_stats_script.py
+
+analyze:
+	
+	python scripts/vct21_stats_script.py
+	python scripts/generate_md.py
+
+	@if [ -n "$$(git status --porcelain)" ]; then \
+		git config --local user.email "action@github.com"; \
+		git config --local user.name "GitHub Action"; \
+		git add images/plot.png Data_summary.md; \
+		git commit -m "Add generated plot and report"; \
+		git push; \
+	else \
+		echo "No changes to commit. Skipping commit and push."; \
+	fi
