@@ -10,6 +10,8 @@ This project is to demonstrate how to create a visualization on CSV input files.
 - Profile the dataset as a CICD process (output as report.md).
 
 ![image](https://github.com/user-attachments/assets/a2dd49f2-f48c-47b1-95a5-30fb271af230)
+![image](https://github.com/user-attachments/assets/3b902ade-c779-4dd4-b6a2-a14b467bf29a)
+
 
 
 
