@@ -20,7 +20,6 @@ run:
 
 analyze:
 	
-	PYTHONPATH=scripts venv/bin/python scripts/vct21_stats_script.py
 	PYTHONPATH=scripts venv/bin/python scripts/generate_md.py
 
 	@if [ -n "$$(git status --porcelain)" ]; then \
