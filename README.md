@@ -6,7 +6,9 @@ This project is to demonstrate how to create a visualization on CSV input files.
 - Read the "VCT'21 Map Ban Dataset"
 - Create a visualization , depicting the distribution of the banned maps.
 - Profile the dataset as a CICD process (output as report.md).
-![image](https://github.com/user-attachments/assets/e1c744a5-6d48-40a9-b0ba-59b5a72f85a0)
+
+![image](https://github.com/user-attachments/assets/a2dd49f2-f48c-47b1-95a5-30fb271af230)
+
 
 
 ## Project Structure
