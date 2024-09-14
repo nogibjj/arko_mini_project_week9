@@ -33,7 +33,7 @@ jobs:
 
     - name: Run data analysis
       run: |
-        make analyze
+        venv/bin/python scripts/generate_md.py
 
     - name: Upload report as artifact
       uses: actions/upload-artifact@v4
