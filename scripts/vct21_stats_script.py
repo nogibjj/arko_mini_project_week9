@@ -11,12 +11,6 @@ import matplotlib.pyplot as plt
 def get_summary_stats(df):
     """
     Generates summary statistics for the given DataFrame.
-
-    Parameters:
-    - df: pandas DataFrame containing the data
-
-    Returns:
-    - pandas DataFrame with summary statistics
     """
     summary_stats = df.describe()
     return summary_stats
@@ -24,12 +18,6 @@ def get_summary_stats(df):
 def plot_pie_chart(df, label_column, value_column, title="Pie Chart"):
     """
     Plots a pie chart using columns from a DataFrame.
-
-    Parameters:
-    - df: pandas DataFrame containing the data
-    - label_column: column name in the DataFrame to use for labels
-    - value_column: column name in the DataFrame to use for values
-    - title: title of the pie chart (optional)
     """
     labels = df[label_column].tolist()
     values = df[value_column].tolist()
