@@ -1,6 +1,6 @@
 [![Run Tests](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml)
 
-# Pandas Descriptive Statistics
+# Pandas Descriptive Statistics with imported notebook from Colab
 
 This project is to demonstrate how to create a visualization on CSV input files. We then bake in CICD functionality to profile our dataset at CICD runtime.
 
