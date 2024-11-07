@@ -1,5 +1,4 @@
-[![Run Tests](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/arko_bhattacharya_week1/actions/workflows/test.yml)
-
+[![CICD](https://github.com/nogibjj/arko_mini_project_week9/actions/workflows/CICD.yml/badge.svg)](https://github.com/nogibjj/arko_mini_project_week9/actions/workflows/CICD.yml)
 # Pandas Descriptive Statistics with imported notebook from Colab
 
 This project is to demonstrate how to create a visualization on CSV input files. We then bake in CICD functionality to profile our dataset at CICD runtime.
@@ -25,6 +24,10 @@ This project is to demonstrate how to create a visualization on CSV input files.
 - `Makefile`: Defines common tasks like installing dependencies, running tests, linting, and running docker.
 - `.devcontainer/`: Contains `Dockerfile` and VS Code configuration.
 - `.github/workflows/`: Contians CI/CD workflows for GitHub.
+
+  Note: Colab doesnt let any commit to the nogibjj organization.. therefore, we save it to a personal repo and then fork it into a repo in the nogibjj organization.
+![image](https://github.com/user-attachments/assets/0d645819-2d27-4897-94bd-6b5dd8bb9111)
+
 
 ## Project Setup
 ### 1. Clone the Repository
