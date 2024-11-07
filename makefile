@@ -14,6 +14,7 @@ lint:
 
 test:
 	PYTHONPATH=scripts venv/bin/python -m unittest discover -s tests -v
+        pytest --nbval descriptive.ipynb
 
 run:
 	PYTHONPATH=scripts venv/bin/python scripts/vct21_stats_script.py
