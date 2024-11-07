@@ -20,6 +20,7 @@ This project is to demonstrate how to create a visualization on CSV input files.
 - `scripts/`: Contains the source code for the project.
 - `tests/`: Contains the unit tests for the project.
 - `data/`: Contains the input data files.
+- `descriptive.ipynb`: Google Colab notebook save to Github
 - `requirements.txt`: Lists the Python dependencies.
 - `Makefile`: Defines common tasks like installing dependencies, running tests, linting, and running docker.
 - `.devcontainer/`: Contains `Dockerfile` and VS Code configuration.
